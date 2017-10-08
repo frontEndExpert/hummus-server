@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #f7911e;
+    margin-bottom: 0px;
+}
+/* f21b23 ee6134 f7911e 5C5C5C */
+
+.nav-brand {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.navbar-nav a, span{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.navbar-right{
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+@media (min-width: 770px) {
+    .navbar-right {
+      display: inline; 
+    }
+  }
+
+.icon-bar{
+    background-color: black;
+}
+ a{
+    color: black;
+    font-weight: 700;
+}
+
+
+li.nav-item > a:active,
+li.nav-item > a:hover, 
+li.nav-item > a:focus {
+    background-color: #f21b23;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+    color: yellow;
+}

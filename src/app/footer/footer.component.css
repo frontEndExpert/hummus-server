@@ -1,0 +1,22 @@
+.top-header{
+    height: 30px;
+    background-image: url("../../assets/images/lines.gif");
+    background-repeat: repeat-x;
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+.footer h3{
+    padding: 0;
+    margin: 20px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 4px yellow;
+}
