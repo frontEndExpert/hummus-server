@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "prestart": "ng build --prod && ngc",
+    "start": "ts-node src/server.ts",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -29,7 +29,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "1.4.2",
+    "@angular/cli": "^1.4.5",
     "@angular/compiler-cli": "^4.2.4",
     "@angular/core": "^4.4.4",
     "@angular/language-service": "^4.2.4",

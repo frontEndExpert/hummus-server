@@ -15,7 +15,7 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
-import { AgmCoreModule } from '@agm/core';
+//import { AgmCoreModule } from '@agm/core';
 import { ContactusComponent } from './contactus/contactus.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
@@ -31,12 +31,12 @@ import { GalleryComponent } from './gallery/gallery.component';
     GalleryComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'hummus-server'}),
     FormsModule,
     HttpModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBQeoSx5RHIWxIRsDpxQmP5VTkWkHn-WF0'
-    }),
+//    AgmCoreModule.forRoot({
+//      apiKey: 'AIzaSyBQeoSx5RHIWxIRsDpxQmP5VTkWkHn-WF0'
+//    }),
     AppRoutingModule,
   ],
   providers: [],
