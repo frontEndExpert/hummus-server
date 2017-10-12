@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
-import { MenuComponent } from './menu/menu.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { GmapComponent } from './gmap/gmap.component';
 
 import { HttpModule } from '@angular/http';
@@ -18,6 +18,7 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 //import { AgmCoreModule } from '@agm/core';
 import { ContactusComponent } from './contactus/contactus.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +26,11 @@ import { GalleryComponent } from './gallery/gallery.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
-    MenuComponent,
+    NavbarComponent,
     GmapComponent,
     ContactusComponent,
-    GalleryComponent
+    GalleryComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'hummus-server'}),
