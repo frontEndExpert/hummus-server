@@ -2,10 +2,16 @@
     background-image: url('../../assets/images/hummus-bg2.gif');
     background-repeat: repeat-x repeat-y;
 }
+.bgwhite {
+    background-color: white;
+}
 .row div{
     padding: 10px 5px 10px 20px;
     font-size: 18px;
 
+}
+.services{
+    background-color: white;
 }
 table {
     background-color: white;
