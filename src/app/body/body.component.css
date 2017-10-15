@@ -1,3 +1,7 @@
+.pagebody {
+    margin: 0px 20px;
+}
+
 .left-col {
    height: auto;
    text-align: left;

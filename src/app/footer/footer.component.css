@@ -4,16 +4,21 @@
     background-repeat: repeat-x;
     
 }
-
 .footer {
+    background-image: url("../../assets/images/hummus-logo-sm.gif");
+    background-repeat: repeat-x;
+    padding-top: 100px;
+}
+.footer-body {
+    background-image: url("../../assets/images/lines.gif");
+    background-repeat: repeat-x;
     text-align: center;
     padding: 0px;
     margin: 0px;
-
 }
-.footer h3{
-    padding: 0;
-    margin: 20px;
+.footer-body h3{
+    padding: 15px;
+    margin: 15px;
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: blue;

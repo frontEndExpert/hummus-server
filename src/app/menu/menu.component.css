@@ -27,6 +27,7 @@ mark {
     color: rgb(18, 0, 97);
     background: rgb(250, 250, 150);
     font-weight: 700;
+    line-height: 40px;
 }
 .container-fluid{
     padding-left: 20px;
